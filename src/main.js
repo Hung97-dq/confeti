@@ -6,8 +6,8 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(layouts);
 
-const homeController = require("./controllers/homeController") 
-const subscribersController = require("./controllers/subscribersController");
+const homeController = require("../controllers/homeController") 
+const subscribersController = require("../controllers/subscribersController");
 
 
 
